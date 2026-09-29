@@ -53,6 +53,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(25, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 21);
@@ -63,6 +64,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(273, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 21);
@@ -105,6 +107,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(274, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 21);
@@ -115,6 +118,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(26, 86);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(102, 21);
@@ -141,6 +145,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(274, 199);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(158, 21);
@@ -151,6 +156,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Control;
             this.label6.Location = new System.Drawing.Point(26, 199);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(115, 21);
@@ -159,18 +165,23 @@
             // 
             // btnComputeSalary
             // 
+            this.btnComputeSalary.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnComputeSalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnComputeSalary.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComputeSalary.ForeColor = System.Drawing.Color.White;
             this.btnComputeSalary.Location = new System.Drawing.Point(213, 267);
             this.btnComputeSalary.Name = "btnComputeSalary";
             this.btnComputeSalary.Size = new System.Drawing.Size(120, 30);
             this.btnComputeSalary.TabIndex = 13;
             this.btnComputeSalary.Text = "Compute Salary";
-            this.btnComputeSalary.UseVisualStyleBackColor = true;
+            this.btnComputeSalary.UseVisualStyleBackColor = false;
+            this.btnComputeSalary.Click += new System.EventHandler(this.btnComputeSalary_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(27, 315);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(94, 21);
@@ -181,6 +192,7 @@
             // 
             this.lblFirstName.AutoSize = true;
             this.lblFirstName.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFirstName.ForeColor = System.Drawing.Color.White;
             this.lblFirstName.Location = new System.Drawing.Point(149, 315);
             this.lblFirstName.Name = "lblFirstName";
             this.lblFirstName.Size = new System.Drawing.Size(150, 21);
@@ -191,6 +203,7 @@
             // 
             this.lblLastName.AutoSize = true;
             this.lblLastName.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLastName.ForeColor = System.Drawing.Color.White;
             this.lblLastName.Location = new System.Drawing.Point(149, 347);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(147, 21);
@@ -201,6 +214,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(27, 347);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(92, 21);
@@ -211,6 +225,7 @@
             // 
             this.lblSalary.AutoSize = true;
             this.lblSalary.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalary.ForeColor = System.Drawing.Color.White;
             this.lblSalary.Location = new System.Drawing.Point(149, 381);
             this.lblSalary.Name = "lblSalary";
             this.lblSalary.Size = new System.Drawing.Size(50, 21);
@@ -221,6 +236,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(27, 381);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(102, 21);
@@ -231,6 +247,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(542, 450);
             this.Controls.Add(this.lblSalary);
             this.Controls.Add(this.label12);
@@ -252,7 +269,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmComputeSalary";
-            this.Text = "Form1";
+            this.Text = "Employee Salary Calculator";
             this.Load += new System.EventHandler(this.frmComputeSalary_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
