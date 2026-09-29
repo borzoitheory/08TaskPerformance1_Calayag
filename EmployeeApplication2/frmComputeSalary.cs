@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace EmployeeApplication2
 {
-    public partial class Form1 : Form
+    public partial class frmComputeSalary : Form
     {
-        public Form1()
+        public frmComputeSalary()
         {
             InitializeComponent();
+        }
+
+        private void frmComputeSalary_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
